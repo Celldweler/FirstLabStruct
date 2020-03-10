@@ -8,9 +8,10 @@ struct Students
 	char SecondName[50];
 	char LastName[50];
 	int Kurs;
-	int MasMarksOfStudents[5];
+	static const short countsubjects = 5;
+	int MasMarksOfStudents[countsubjects];
 
 
 };
 
-#endif // !1
+#endif // _Students

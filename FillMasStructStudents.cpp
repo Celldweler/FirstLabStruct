@@ -1,6 +1,4 @@
-
-
-#include"stdafx.h"
+#include "stdafx.h"
 
 Students* FillMasStructStudents(int _CountStudents)
 {

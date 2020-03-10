@@ -1,4 +1,5 @@
 #include"stdafx.h"
+/*Функция проверки коректности ввода количества студентов и дальнейшей обработки масива структуры студентов*/
 
 Students* CheckCorectFillMasStudents(Students* MassiveStudents, int& _CountStudents)
 {
