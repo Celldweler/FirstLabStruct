@@ -151,10 +151,10 @@
     <ClCompile Include="FillMasStructStudents.cpp" />
     <ClCompile Include="Fill_Fields_Mas_Struct_Students.cpp" />
     <ClCompile Include="MainFirstLabStruct.cpp" />
-    <ClCompile Include="StructStudents.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Stdafx.h" />
+    <ClInclude Include="Students.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

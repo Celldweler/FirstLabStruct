@@ -4,9 +4,9 @@
 #include <string>
 #include <Windows.h>
 #include <ctime>
-struct Students {};
-//Students* InitArray(int _CountStudents);
+#include<stdio.h>
+#include"Students.h"
 
-void CheckCorectFillMasStudents(Students* , int );
+ Students* CheckCorectFillMasStudents(Students* , int& );
 Students Fill_Fields_Mas_Struct_Students();
 Students* FillMasStructStudents(int);

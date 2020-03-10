@@ -7,10 +7,15 @@ int main(int argc,char* argv)
 	SetConsoleOutputCP(1251);
 	SetConsoleCP(1251);
 	setlocale(0, "");
-	int _CountStudents{0};
-	Students* MassiveStudents = nullptr;
-	CheckCorectFillMasStudents(MassiveStudents, _CountStudents);
 
+	 int _CountStudents;
+	 Students* MassiveStudents = nullptr;
+	 Students st;
+	
+	MassiveStudents=CheckCorectFillMasStudents(MassiveStudents, _CountStudents);
+
+
+	delete MassiveStudents;
 
 }
 

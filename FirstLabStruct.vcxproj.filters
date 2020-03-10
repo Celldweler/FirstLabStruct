@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="StructStudents.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
     <ClCompile Include="CheckCorectFillMasStudents.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
@@ -33,6 +30,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Stdafx.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Students.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
