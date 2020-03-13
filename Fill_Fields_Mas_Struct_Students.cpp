@@ -1,7 +1,7 @@
+//#include"stdafx.h"
 
-
-#include"stdafx.h"
-
+#include<iostream>
+#include"Students.h"
 
 Students Fill_Fields_Mas_Struct_Students()
 {
@@ -18,10 +18,11 @@ Students Fill_Fields_Mas_Struct_Students()
 	 std::cin.getline(student.LastName, 255);
 	 std::cin.ignore(std::cin.rdbuf()->in_avail());
 	 std::cout << "Enter kurs student: ";
-	 std::cin >> student.FirstName;
+	 std::cin >> student.Kurs;
+	
 	 for (size_t i = 0; i < 5; i++)
 	 {
-		 student.MasMarksOfStudents[i] = rand() % 6;
+		 student.MasMarksOfStudents[i] = rand() % 101;
 	 }
 	
 	return student;

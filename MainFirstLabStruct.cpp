@@ -1,6 +1,4 @@
 ﻿#include"stdafx.h"
-using namespace std;
-
 int Search_Overall_Grade_Point_Average(Students* Massive,int countstudents)/*Функция нахождения общего среднего бала всех студентов */
 {
 	unsigned int _Overall_Grade_Point_Average = 0;
@@ -22,15 +20,20 @@ int main(int argc,char* argv[])
 	SetConsoleCP(1251);
 	setlocale(0, "");
 
-	 int _CountStudents;
 	 Students* MassiveStudents = nullptr;
 	
-	MassiveStudents=CheckCorectFillMasStudents(MassiveStudents, _CountStudents);
-	cout << "\nThe list of students: ";
+	 MassiveStudents=CheckCorectFillMasStudents(MassiveStudents, _CountStudents);
+	std::cout << "\nThe list of students: ";
 	ShowMasStruct(MassiveStudents, _CountStudents);
-	static int _Overall_Grade_Point_Average = Search_Overall_Grade_Point_Average(MassiveStudents, _CountStudents);
+	
+	
+	 int _Overall_Grade_Point_Average = Search_Overall_Grade_Point_Average(MassiveStudents, _CountStudents);
+	ShowSortMasNameStudent(MassiveStudents,  _CountStudents, _Overall_Grade_Point_Average);
+	std::cout << "\nThe sorting list of students: ";
+	ShowMasStruct(MassiveStudents, _CountStudents);
+	
 
-	delete MassiveStudents;
+//	delete MassiveStudents;
 
 }
 
