@@ -5,7 +5,6 @@ void ShowMasStruct(Students* Massive, int _CountStudents)
 	for (size_t i = 0; i < _CountStudents; i++) { DisplayDataStudent(Massive[i]); }
 }
 
-void ShowMasStruct(Students*, int );
 void DisplayDataStudent(Students Student)
 {
 	printf("\n%s %s %s %d kurs {", Student.FirstName, Student.SecondName, Student.LastName, Student.Kurs);

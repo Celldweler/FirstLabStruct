@@ -9,13 +9,13 @@ Students Fill_Fields_Mas_Struct_Students()
 	 
 	 std::cout << "\nEnter first name:";
 	 std::cin.ignore(std::cin.rdbuf()->in_avail());
-		 std::cin.getline(student.FirstName, 255);
+		 std::cin.getline(student.FirstName,10);
 	 std::cout << "Enter second name:";
 	 std::cin.ignore(std::cin.rdbuf()->in_avail());
-	 std::cin.getline(student.SecondName, 255);
+	 std::cin.getline(student.SecondName,10);
 	 std::cout << "Enter last name:";
 	 std::cin.ignore(std::cin.rdbuf()->in_avail());
-	 std::cin.getline(student.LastName, 255);
+	 std::cin.getline(student.LastName, 10);
 	 std::cin.ignore(std::cin.rdbuf()->in_avail());
 	 std::cout << "Enter kurs student: ";
 	 std::cin >> student.Kurs;

@@ -147,12 +147,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AveStudMarksIsGreatOveralAverMarks.cpp" />
+    <ClCompile Include="BaseLevel.cpp" />
     <ClCompile Include="CheckCorectFillMasStudents.cpp" />
     <ClCompile Include="FillMasStructStudents.cpp" />
     <ClCompile Include="Fill_Fields_Mas_Struct_Students.cpp" />
     <ClCompile Include="MainFirstLabStruct.cpp" />
+    <ClCompile Include="MiddleLevel.cpp" />
     <ClCompile Include="ShowMasStruct.cpp" />
-    <ClCompile Include="ShowSortMasNameStudent.cpp" />
+    <ClCompile Include="SortMasNameStudent.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Stdafx.h" />
