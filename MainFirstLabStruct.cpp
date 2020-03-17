@@ -16,15 +16,14 @@ int Search_Overall_Grade_Point_Average(Students* Massive,int countstudents)/*Ð¤Ñ
 
 int main(int argc,char* argv[])
 {
-	//srand(time(NULL));
+	srand(time(NULL));
 	SetConsoleOutputCP(1251);
 	SetConsoleCP(1251);
 	setlocale(0, "");
 	srand(time(NULL));
-	//BaseLevel();
-	//MiddleLevel();
+	BaseLevel();
+	MiddleLevel();
 
-	//exit(777);
 	std::cout << "Hard Level";
 	 Students* MassiveStudents = nullptr;
 	
@@ -34,8 +33,6 @@ int main(int argc,char* argv[])
 	SortMasNameStudent(MassiveStudents, _CountStudents);
 	ShowMasStruct(MassiveStudents, _CountStudents);
 	
-	
-	//SortMasNameStudent(MassiveStudents,  _CountStudents, _Overall_Grade_Point_Average);
 	std::cout << "\nThe sorting list of students: ";
 	Students* NewMasStud = AveStudMarksIsGreatOveralAverMarks(MassiveStudents, _CountStudents, _Overall_Grade_Point_Average);
 	ShowMasStruct(NewMasStud, _CountStudents);

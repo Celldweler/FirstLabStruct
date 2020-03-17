@@ -14,7 +14,6 @@ void DisplayDataStudent(Students);
 Students* SortMasNameStudent(Students*, int);
 Students* AveStudMarksIsGreatOveralAverMarks(Students* , int _CountStudents, int average);
 int Search_Overall_Grade_Point_Average(Students*, int);/*Функция нахождения общего среднего бала всех студентов */
-
 void BaseLevel();
 void MiddleLevel();
 

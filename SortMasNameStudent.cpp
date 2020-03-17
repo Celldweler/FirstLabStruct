@@ -3,7 +3,6 @@
 Students* SortMasNameStudent(Students* Massive, int _CountStudents)
 {
 	Students Temp;
-	Students* NewSortMas;
 	/*
 	int temp = 0;
 	int countsubj = Students::countsubjects;
@@ -33,9 +32,7 @@ Sort:
 					}
 				}
 			}
-		
-		
-			
+
 			return Massive;
 	
 }
